@@ -1,0 +1,271 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url('https://c4.staticflickr.com/9/8657/28856778435_f49668c275_o.jpg');
+
+
+
+}
+
+
+
+.whiteText h1 {
+    font-size: 6em;
+
+    vertical-align:middle;
+    text-align:center;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hr-grey{
+  border-top: 4px solid white;
+
+}
+
+body .highlight{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+
+#test h1 {
+
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.demo
+{
+	padding: 50px ;
+}
+.heading-title
+{
+	margin-bottom: 100px;
+}
+
+
+
+
+
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1.7em;
+}
+
+.container h2 {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: 1.7em;
+}
+
+.margin-top-xs { margin-top: 0.5em; }
+.margin-top-s { margin-top: 1.0em; }
+.margin-top-m { margin-top: 1.5em; }
+.margin-top-l { margin-top: 2.0em; }
+.margin-top-xl { margin-top: 2.5em; }
+.margin-top-xxl { margin-top: 3.0em; }
+.margin-left-l { margin-left: 2.0em; }
+.margin-right-l { margin-right: 2.0em; }
+
+.margin-bottom-l { margin-bottom: 3.0em; }
+
+.services{
+  padding-top: 30px;
+}
+
+
+
+
+
+.padd{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.hero {
+    position:relative;
+    background-color:#A0F9FF;
+    height:400px !important;
+    width:100% !important;
+    background-image: url("https://www.karismaadriatic.com/images/common/sea-and-nature.jpg");
+}
+
+.vl {
+
+  border-left: 6px solid white;
+  height: 100px;
+}
+
+.cen {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+xmp{
+  font-size: 550%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.imageCenter{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero2 {
+  margin-top: -20px;
+    position:relative;
+background-color: white;
+    width:100% !important;
+    height:300px !important;
+    }
+
+
+.h1padd{
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.h1padd p{
+  font-size: 150%;
+}
+
+.h1padd p::first-letter {
+  font-size: 300%;
+
+}
+
+
+.hero3 {
+    position:relative;
+    background-color:#A0F9FF;
+    height:400px !important;
+    width:100% !important;
+    background-image: url("https://rewildingeurope.com/wp-content/uploads/2017/11/cropped-CDO-2008-10-22-074056-01-2-1.jpg");
+}
+
+
+.hero4 {
+    position:relative;
+    height:400px !important;
+    width:100% !important;
+    background-image: url("http://nevadanewsandviews.com/wp-content/uploads/2016/12/AP.Iguazu-falls-Argentina-Brazil2-1024x592.jpg");
+}
+
+
+
+.footer {
+  width: 100%;
+  padding: 45px 0;
+background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+
+
+.social {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 48px;
+  padding-top: 24px;
+}
+.social h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.social ul {
+  width: 360px;
+  margin: 0 auto;
+}
+.social li {
+  display: inline-block;
+}
+.social a {
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  display: block;
+  text-align: center;
+  margin: 0 6px;
+}
+.social a .title {
+  display: none;
+}
+.social a svg {
+  fill: #fff;
+  width: 16px;
+}
+.social a:hover svg {
+  fill: #bbb;
+}
+.social p {
+  text-align: center;
+  margin-top: 12px;
+  color: #757575;
+
+}
+
+h2{
+  color: white;
+}
